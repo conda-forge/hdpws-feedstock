@@ -1,5 +1,5 @@
 {% set name = "hdpws" %}
-{% set version = "0.6.19" %}
+{% set version = "0.6.23" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hdpws-{{ version }}.tar.gz
-  sha256: 45866ea98cbf9cf75d08b329989f5b737f67dcb0b64d6e78a3f53ffde496c011
+  sha256: c90e68b53a88210a096d3e741318c09eb576eb09703ab73deda6db85b1c68299
 
 build:
   noarch: python
