@@ -32,9 +32,8 @@ test:
   commands:
     - pip check
   requires:
-    - python >={{ python_min }}
+    - python >={{ python_min }}.*
     - pip
-    - python {{ python_min }}
 
 about:
   home: https://heliophysicsdata.gsfc.nasa.gov/WebServices
