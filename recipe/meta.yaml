@@ -1,4 +1,4 @@
-{% set python_min = python_min|default("3.10") %}
+{% set python_min = python_min|default("3.9") %}
 {% set name = "hdpws" %}
 {% set version = "0.6.23" %}
 
