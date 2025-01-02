@@ -1,3 +1,4 @@
+{% set python_min = python_min|default("3.9") %}
 {% set name = "hdpws" %}
 {% set version = "0.6.23" %}
 
@@ -16,10 +17,11 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >={{ python_min }}.*
     - pip
+    - setuptools
   run:
-    - python >=3.6
+    - python >={{ python_min }}.*
     - python-dateutil >=2.8.0
     - requests >=2.20
     - urllib3 >=1.26.14
@@ -30,13 +32,14 @@ test:
   commands:
     - pip check
   requires:
+    - python >={{ python_min }}
     - pip
 
 about:
   home: https://heliophysicsdata.gsfc.nasa.gov/WebServices
   summary: NASA's Heliophysics Data Portal Web Service Client Library
-  license: NASA-1.3
-  license_file: LICENSE
+  license: NOSL
+  license_file: NASA_Open_Source_Agreement_1.3.txt
 
 extra:
   recipe-maintainers:
