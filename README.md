@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hdpws-feedstock
 
 Home: https://heliophysicsdata.gsfc.nasa.gov/WebServices
 
-Package license: NASA-1.3
+Package license: NOSL
 
 Summary: NASA's Heliophysics Data Portal Web Service Client Library
 
