@@ -40,6 +40,16 @@ about:
   summary: NASA's Heliophysics Data Portal Web Service Client Library
   license: NOSL
   license_file: NASA_Open_Source_Agreement_1.3.txt
+  description: |
+    This library provides a simple python interface to
+    NASA's [Heliophysics Data Portal's](https://heliophysicsdata.gsfc.nasa.gov/)
+    (HDP) Space Physics Archive, Search, and Extract
+    ([SPASE](https://spase-group.org/)) Web Service.  This library implements
+    the client side of the
+    [HDP RESTful web services](https://heliophysicsdata.gsfc.nasa.gov/WebServices/).
+    For more general details about the HDP web services, see
+    https://heliophysicsdata.gsfc.nasa.gov/WebServices/.
+    ![SPASE Inside](https://spase-group.org/assets/images/spase-inside.png)
 
 extra:
   recipe-maintainers:
